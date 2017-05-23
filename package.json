@@ -1,0 +1,9 @@
+{
+  "name": "aws-s3-snippets",
+  "description": "AWS S3 Snippets",
+  "dependencies": {
+    "aws-sdk": "^2.56.0",
+    "crypto": "0.0.3",
+    "moment": "^2.18.1"
+  }
+}

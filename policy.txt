@@ -1,0 +1,11 @@
+{
+  "expiration": "2020-01-01T00:00:00Z",
+  "conditions": [
+    {"bucket": "YOUR_S3_BUCKET"},
+    ["starts-with", "$key", ""],
+    {"acl": "public-read"},
+    ["starts-with", "$Content-Type", ""],
+    ["starts-with", "$filename", ""],
+    ["content-length-range", 0, 524288000]
+  ]
+}
